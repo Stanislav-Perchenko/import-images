@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="msg_err_internal_app_error">Internal app error</string>
+    <string name="msg_err_connection_problem">Connection problem</string>
+    <string name="msg_err_server_error">Server returned error</string>
+    <string name="msg_err_api_wrong_data">Server returned bad data</string>
+
+</resources>

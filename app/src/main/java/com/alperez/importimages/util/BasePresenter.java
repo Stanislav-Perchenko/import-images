@@ -6,6 +6,9 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 
 
+import com.alperez.common.executor.model.Disposable;
+import com.alperez.common.executor.utils.CompositeDisposable;
+
 import java.lang.ref.WeakReference;
 
 /**
@@ -47,6 +50,7 @@ public class BasePresenter<TView> {
     public synchronized void release() {
         released = true;
         viewRef.clear();
+        cancelAllInProgressRequests();
     }
 
     public synchronized boolean isReleased() {
@@ -61,6 +65,29 @@ public class BasePresenter<TView> {
     protected synchronized void checkReleased() {
         if (released) {
             throw new IllegalStateException("Already released!");
+        }
+    }
+
+    private final CompositeDisposable mDisposableContainer = new CompositeDisposable();
+
+
+    protected void registerApiDisposable(Disposable d) {
+        synchronized (mDisposableContainer) {
+            mDisposableContainer.add(d);
+        }
+    }
+
+    protected void unregisterApiDisposable(Disposable d) {
+        synchronized (mDisposableContainer) {
+            mDisposableContainer.delete(d);
+        }
+    }
+
+
+
+    protected void cancelAllInProgressRequests() {
+        synchronized (mDisposableContainer) {
+            mDisposableContainer.clear();
         }
     }
 
