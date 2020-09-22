@@ -2,7 +2,10 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccent">@color/app_color_blue</color>
+    <color name="default_background">#FFFFFF</color>
+    <color name="background_darker">#FAFAFA</color>
+
 
     <!-- general text colors -->
     <color name="text_black">#000000</color>
@@ -13,7 +16,16 @@
     <color name="text_white">#FFFFFF</color>
     <color name="text_link">#0000EA</color>
 
+    <color name="app_color_green">#7DC44D</color>
+    <color name="app_color_red">#F4595A</color>
+    <color name="app_color_yellow">#EFCD4F</color>
+    <color name="app_color_orange">#F2994A</color>
+    <color name="app_color_light_gray">#DFDEE2</color>
+    <color name="app_color_blue">#1477c4</color>
+
     <color name="result_selector_active">#349beb</color>
     <color name="result_selector_active_pressed">#1477c4</color>
+
+    <color name="on_shading_text_color">@android:color/white</color>
 
 </resources>

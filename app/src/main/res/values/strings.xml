@@ -3,8 +3,11 @@
 
     <string name="title_submit_your_id_card">Submit your identity card</string>
     <string name="msg_secure_transmission">All data is securely transmitted</string>
-
+    <string name="dialog_title_import_document_image">Document image</string>
     <string name="front_side">Front size</string>
     <string name="back_side">Back side</string>
+    <string name="action_take_picture">Take picture from camera</string>
+    <string name="action_pick_from_gallery">Pick from gallery</string>
 
+    <string name="image_crop_instructions">Select image area to be used as the cover image of your posts.</string>
 </resources>

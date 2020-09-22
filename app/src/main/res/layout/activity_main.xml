@@ -63,4 +63,11 @@
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         app:actionTitle="@string/back_side"/>
 
+    <Button android:id="@+id/action_submit"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:text="submit"/>
+
 </LinearLayout>
