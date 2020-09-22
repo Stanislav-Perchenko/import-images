@@ -10,4 +10,15 @@
     <string name="action_pick_from_gallery">Pick from gallery</string>
 
     <string name="image_crop_instructions">Select image area to be used as the cover image of your posts.</string>
+    <string name="progress_import">Importing…</string>
+    <string name="progress_processing">Processing...</string>
+    <string name="err_camera_not_stated">camera not started</string>
+    <string name="err_gallery_access">gallery opening failed</string>
+    <string name="err_import_image" formatted="false">Error import image - %s</string>
+    <string name="err_process_image" formatted="false">Error processing image - %s</string>
+    <string name="err_create_file_for_photo">Cannot create file to take photo</string>
+    <string name="err_permissions_not_granted">Permissions are not granted</string>
+    <string name="err_image_not_picked">Image was not picked</string>
+    <string name="err_image_not_taken">Image was not taken</string>
+
 </resources>
