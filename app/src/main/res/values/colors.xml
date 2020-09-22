@@ -3,4 +3,14 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <!-- general text colors -->
+    <color name="text_black">#000000</color>
+    <color name="text_dark">#333333</color>
+    <color name="text_gray">#828282</color>
+    <color name="text_light_gray">#BCBCBC</color>
+    <color name="text_almost_white">#F1F1F1</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_link">#0000EA</color>
+
 </resources>
