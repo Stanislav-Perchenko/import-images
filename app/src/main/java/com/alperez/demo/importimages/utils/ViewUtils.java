@@ -15,13 +15,13 @@ public final class ViewUtils {
     private ViewUtils() { }
 
 
-    public static void clearWebView(WebView webView) {
+    /*public static void clearWebView(WebView webView) {
         if (Build.VERSION.SDK_INT < 18) {
             webView.clearView();
         } else {
             webView.loadUrl("about:blank");
         }
-    }
+    }*/
 
     @SuppressLint("NewApi")
     public static int getColorFromResourcesCompat(Resources res, int resId, @Nullable Resources.Theme theme) {

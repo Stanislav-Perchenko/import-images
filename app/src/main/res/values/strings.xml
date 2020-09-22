@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Import Images</string>
+
+    <string name="title_submit_your_id_card">Submit your identity card</string>
+    <string name="msg_secure_transmission">All data is securely transmitted</string>
+
+    <string name="front_side">Front size</string>
+    <string name="back_side">Back side</string>
+
 </resources>

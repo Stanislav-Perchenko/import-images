@@ -13,4 +13,7 @@
     <color name="text_white">#FFFFFF</color>
     <color name="text_link">#0000EA</color>
 
+    <color name="result_selector_active">#349beb</color>
+    <color name="result_selector_active_pressed">#1477c4</color>
+
 </resources>
